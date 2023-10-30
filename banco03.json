@@ -1,0 +1,138 @@
+db.projects.insertMany([
+  {
+    "name": "Harry Potter e a Pedra Filosofal",
+    "startDate": "2023-10-22",
+    "endDate": "2023-10-27",
+    "tasks": [
+      {
+        "title": "Capítulo 1",
+        "description": "Descrição do Capítulo 1 para Harry Potter",
+        "creationDate": "2023-10-22",
+        "status": "In-Progress",
+        "user": {
+          "name": "Harry Potter",
+          "email": "harry@example.com"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Harry Potter e a Câmara Secreta",
+    "startDate": "2023-10-23",
+    "endDate": "2023-10-28",
+    "tasks": [
+      {
+        "title": "Capítulo 1",
+        "description": "Descrição do Capítulo 1 para Harry Potter",
+        "creationDate": "2023-10-23",
+        "status": "To-Do",
+        "user": {
+          "name": "Hermione Granger",
+          "email": "hermione@example.com"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Harry Potter e o Prisioneiro de Azkaban",
+    "startDate": "2023-10-24",
+    "endDate": "2023-10-29",
+    "tasks": [
+      {
+        "title": "Capítulo 1",
+        "description": "Descrição do Capítulo 1 para Harry Potter",
+        "creationDate": "2023-10-24",
+        "status": "Done",
+        "user": {
+          "name": "Ron Weasley",
+          "email": "ron@example.com"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Harry Potter e o Cálice de Fogo",
+    "startDate": "2023-10-25",
+    "endDate": "2023-10-30",
+    "tasks": [
+      {
+        "title": "Capítulo 1",
+        "description": "Descrição do Capítulo 1 para Harry Potter",
+        "creationDate": "2023-10-25",
+        "status": "In-Progress",
+        "user": {
+          "name": "Albus Dumbledore",
+          "email": "albus@example.com"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Harry Potter e a Ordem da Fênix",
+    "startDate": "2023-10-26",
+    "endDate": "2023-10-31",
+    "tasks": [
+      {
+        "title": "Capítulo 1",
+        "description": "Descrição do Capítulo 1 para Harry Potter",
+        "creationDate": "2023-10-26",
+        "status": "To-Do",
+        "user": {
+          "name": "Severus Snape",
+          "email": "severus@example.com"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Harry Potter e o Enigma do Príncipe",
+    "startDate": "2023-10-27",
+    "endDate": "2023-11-01",
+    "tasks": [
+      {
+        "title": "Capítulo 1",
+        "description": "Descrição do Capítulo 1 para Harry Potter",
+        "creationDate": "2023-10-27",
+        "status": "Done",
+        "user": {
+          "name": "Minerva McGonagall",
+          "email": "minerva@example.com"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Harry Potter e as Relíquias da Morte",
+    "startDate": "2023-10-28",
+    "endDate": "2023-11-02",
+    "tasks": [
+      {
+        "title": "Capítulo 1",
+        "description": "Descrição do Capítulo 1 para Harry Potter",
+        "creationDate": "2023-10-28",
+        "status": "In-Progress",
+        "user": {
+          "name": "Rubeus Hagrid",
+          "email": "hagrid@example.com"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Harry Potter e a Criança Amaldiçoada",
+    "startDate": "2023-10-29",
+    "endDate": "2023-11-03",
+    "tasks": [
+      {
+        "title": "Ato 1",
+        "description": "Descrição do Ato 1 para Harry Potter",
+        "creationDate": "2023-10-29",
+        "status": "To-Do",
+        "user": {
+          "name": "Bellatrix Lestrange",
+          "email": "bellatrix@example.com"
+        }
+      }
+    ]
+  }
+]);
